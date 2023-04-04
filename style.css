@@ -2,12 +2,15 @@
 	padding: 0;
 	margin: 0;
 	font-family: ;
+	box-sizing: border-box;
 }
 
 .body {
 	display: flex;
 	flex-direction: column;
 }
+
+/* STYLING FOR FIRST SECTION */
 
 .container1 {
 	background-color: #1f2937;
@@ -19,6 +22,8 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
+
 }
 
 .logo {
@@ -54,6 +59,8 @@ a:hover {
 	justify-content: space-around;
 	align-items: flex-start;
 	padding: 48px;
+	flex-wrap: wrap;
+
 }
 
 .info {
@@ -75,14 +82,18 @@ a:hover {
 button {
 	font-size: 16px;
 	background-color: #3882f6;
-	padding: 5px 8px;
+	padding: 5px 16px;
+	border: #3882f6;
 	border-radius: 10px;
+	color: #fff;
 }
 
 .picture1 {
 	width: 650px;
 	height: auto;
 }
+
+/* STYLING FOR SECOND SECTION */
 
 .container2 {
 	display: flex;
@@ -123,4 +134,62 @@ h2 {
 	width: 150px;
 	text-align: center;
 	padding-top: 8px;
+}
+
+/* STYLING FOR THE QUOTE BLOCK */
+
+.quote {
+	text-align: center;
+	background-color: #c0bfbf;
+	font-size: 36px;
+	padding: 36px 0;
+	font-weight: bold;
+}
+
+blockquote {
+	padding: 32px 0;
+	color: #363535;
+	font-weight: 100;
+}
+
+.quote-author {
+	float: right;
+	padding-right: 150px;
+}
+
+/* FINAL CONTAINER */
+.container3 {
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 96px 0;
+}
+
+.signup-frame {
+	background: #3882f6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 700px;
+	padding: 48px 16px;
+	border-radius: 15px;
+	color: #fff;
+}
+
+.top {
+	font-weight: bold;
+}
+
+.last {
+	border: 3px solid #fff;
+}
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	font-size: 16px;
+	padding: 16px 0;
+	background: #c0bfbf;
 }
