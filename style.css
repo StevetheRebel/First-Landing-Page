@@ -36,6 +36,19 @@
 	gap: 16px;
 }
 
+a {
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	background: black;
+	color: #fff;
+	border-radius: 10px;
+	padding: 16px;
+}
+
 .home-info {
 	display: flex;
 	justify-content: space-around;
